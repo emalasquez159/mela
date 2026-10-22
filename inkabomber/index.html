@@ -15,20 +15,39 @@
 <body>
 
 <h1>Política de privacidad de Inka Bomber</h1>
-<p class="fecha">Última actualización: 24 de septiembre de 2026</p>
+<p class="fecha">Última actualización: 21 de octubre de 2026</p>
 
 <p>Inka Bomber es un juego para Android publicado por <strong>WaldosPeru</strong> en Google Play
 (<code>com.waldosapps.inkabomber</code>). Esta política explica qué datos usa el juego. En resumen:
-<strong>el juego no recopila, no envía y no vende datos personales.</strong></p>
+<strong>el juego no pide ni vende datos personales.</strong> Lo único que sale del teléfono es, si decidís
+participar, tu fila del ranking en línea (ver más abajo).</p>
 
 <h2>Qué se guarda y dónde</h2>
 <p>Tu progreso (niveles, estrellas, monedas, personajes, mascotas, ajustes, récords y el PIN del control
-parental) se guarda <strong>solo en tu teléfono</strong>. No tenemos servidores propios y no vemos esa
-información. Si desinstalás el juego o borrás sus datos, ese progreso se elimina del teléfono.</p>
+parental) se guarda <strong>solo en tu teléfono</strong>. No vemos esa información. Si desinstalás el juego o borrás sus datos, ese progreso se elimina del teléfono.</p>
+
+<h2>Ranking en línea (opcional)</h2>
+<p>Desde la versión 3.1 hay un ranking mundial con otros jugadores. <strong>Es opcional:</strong> no se envía
+nada hasta que entrás al ranking y elegís un apodo. Si participás, se guarda en
+<strong>Google Firebase</strong> (Firestore, servidores de Google) una fila por tabla con:</p>
+<ul>
+  <li>un <strong>identificador anónimo</strong> que crea Firebase Authentication (no está ligado a tu nombre,
+  correo ni cuenta de Google);</li>
+  <li>tu <strong>apodo</strong>, que se arma eligiendo un animal y una cualidad de una lista, más un número al azar
+  (por ejemplo «Cóndor Valiente 482»): no se puede escribir texto libre, así nadie pone su nombre real;</li>
+  <li>el <strong>país</strong> configurado en el teléfono (dos letras, por ejemplo «PE»). Sale de la configuración
+  de idioma y región, no de la ubicación: el juego no usa el GPS;</li>
+  <li>tu <strong>mejor puntaje</strong> del modo Historia, el personaje con el que lo hiciste y la fecha del envío.</li>
+</ul>
+<p>Esa fila la ven los demás jugadores dentro del ranking. Se usa solo para mostrar las tablas (general, semanal
+y por país); no se usa para publicidad ni se vende. Viaja cifrada (HTTPS). Para dar seguridad y evitar abusos, Firebase también procesa la dirección IP y la versión del juego al conectarse. Google procesa estos datos como
+proveedor, según su <a href="https://firebase.google.com/support/privacy">política de privacidad de Firebase</a>.
+Las tablas semanales viejas se conservan como historial.</p>
 
 <h2>Lo que no hace el juego</h2>
 <ul>
   <li>No pide nombre, correo, teléfono, ubicación, contactos, fotos ni cámara.</li>
+  <li>No tiene cuentas con contraseña ni inicio de sesión con Google.</li>
   <li>No tiene publicidad.</li>
   <li>No usa herramientas de analítica ni de seguimiento.</li>
   <li>No tiene chat ni permite enviar textos a otras personas.</li>
@@ -53,18 +72,21 @@ Con el control parental activado, cada compra con dinero real pide un PIN.</p>
 compartir de Android. Vos elegís a qué app enviarla; el juego no la envía por su cuenta.</p>
 
 <h2>Niñas y niños</h2>
-<p>Inka Bomber está pensado para todo público, también para chicos. Como no recopila datos personales,
-no obtiene información de menores. Recomendamos que madres, padres o tutores activen el control parental
+<p>Inka Bomber está pensado para todo público, también para chicos. No pide datos personales a nadie:
+en el ranking, el apodo sale de una lista y el identificador es anónimo, justamente para que ningún chico
+tenga que escribir su nombre. Recomendamos que madres, padres o tutores activen el control parental
 (Ajustes → Control parental → Crear PIN) para que las compras pidan un PIN.</p>
 
 <h2>Borrar tus datos</h2>
 <p>Todo lo guardado está en tu teléfono. Para borrarlo: <em>Ajustes de Android → Aplicaciones → Inka Bomber →
-Almacenamiento → Borrar datos</em>, o desinstalá el juego. No hay cuentas que borrar. Las compras hechas con
+Almacenamiento → Borrar datos</em>, o desinstalá el juego. Para borrar tu fila del ranking en línea: <em>Trofeos → Ranking → Ranking mundial →
+Salir del ranking</em>; se borran tus filas del servidor y el juego deja de enviar puntajes. Si ya desinstalaste
+el juego, escribinos al correo de abajo con tu apodo y país y la borramos a mano. Las compras hechas con
 dinero real quedan registradas en tu cuenta de Google Play y se pueden restaurar desde el juego.</p>
 
 <h2>Cambios</h2>
-<p>Si una versión futura agrega funciones que usen datos (por ejemplo, un ranking en línea o iniciar sesión
-con Google), actualizaremos esta página antes de publicarla y cambiaremos la fecha de arriba.</p>
+<p>Si una versión futura agrega funciones que usen datos, actualizaremos esta página antes de publicarla y
+cambiaremos la fecha de arriba.</p>
 
 <h2>Contacto</h2>
 <p>Consultas sobre privacidad: <a href="mailto:manu1472005@gmail.com">manu1472005@gmail.com</a></p>
@@ -72,13 +94,20 @@ con Google), actualizaremos esta página antes de publicarla y cambiaremos la fe
 <hr>
 
 <h1>Inka Bomber Privacy Policy</h1>
-<p class="fecha">Last updated: September 24, 2026</p>
+<p class="fecha">Last updated: October 21, 2026</p>
 
 <p>Inka Bomber is an Android game published by <strong>WaldosPeru</strong> on Google Play
-(<code>com.waldosapps.inkabomber</code>). <strong>The game does not collect, send or sell personal data.</strong></p>
+(<code>com.waldosapps.inkabomber</code>). <strong>The game does not ask for or sell personal data.</strong> The only thing that leaves the phone is, if you choose to take part, your row in the online ranking.</p>
 <ul>
   <li><strong>Progress</strong> (levels, coins, characters, pets, settings and the parental PIN) is stored
   only on your phone. We have no servers and cannot see it.</li>
+  <li><strong>Online ranking (optional, since 3.1):</strong> nothing is sent until you open the ranking and pick a
+  nickname. Then Google Firebase (Firestore) stores one row per board with an anonymous ID created by Firebase
+  Authentication, your nickname (an animal + a quality chosen from a list + a random number; no free text), the
+  phone's country setting (two letters, from the region settings, not GPS), your best Story score, the character
+  used and the date. Other players see this row in the ranking. It is sent over HTTPS, not used for ads and not sold. For security and abuse prevention, Firebase also processes the IP address and app version when connecting.
+  Google processes it as a provider under the <a href="https://firebase.google.com/support/privacy">Firebase privacy terms</a>.
+  Old weekly boards are kept as history.</li>
   <li><strong>No ads, no analytics, no tracking, no chat.</strong> The game never asks for your name, email,
   location, contacts, photos or camera.</li>
   <li><strong>In-app purchases</strong> are processed by Google Play under Google's
@@ -90,7 +119,8 @@ con Google), actualizaremos esta página antes de publicarla y cambiaremos la fe
   where to send it.</li>
   <li><strong>Children:</strong> the game is suitable for all ages and collects no personal information from anyone.</li>
   <li><strong>Deleting data:</strong> Android Settings → Apps → Inka Bomber → Storage → Clear data, or uninstall.
-  There are no accounts to delete.</li>
+  To delete your ranking rows: Trophies → Ranking → World ranking → Leave the ranking. If you already
+  uninstalled the game, email us your nickname and country and we will delete it by hand.</li>
 </ul>
 <p>Contact: <a href="mailto:manu1472005@gmail.com">manu1472005@gmail.com</a></p>
 
