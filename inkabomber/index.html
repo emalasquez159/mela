@@ -15,12 +15,12 @@
 <body>
 
 <h1>Política de privacidad de Inka Bomber</h1>
-<p class="fecha">Última actualización: 21 de octubre de 2026</p>
+<p class="fecha">Última actualización: 3 de noviembre de 2026</p>
 
 <p>Inka Bomber es un juego para Android publicado por <strong>WaldosPeru</strong> en Google Play
 (<code>com.waldosapps.inkabomber</code>). Esta política explica qué datos usa el juego. En resumen:
-<strong>el juego no pide ni vende datos personales.</strong> Lo único que sale del teléfono es, si decidís
-participar, tu fila del ranking en línea (ver más abajo).</p>
+<strong>el juego no pide ni vende datos personales.</strong> Lo único que sale del teléfono son totales anónimos
+de juego (sin ningún identificador) y, si decidís participar, tu fila del ranking en línea (ver más abajo).</p>
 
 <h2>Qué se guarda y dónde</h2>
 <p>Tu progreso (niveles, estrellas, monedas, personajes, mascotas, ajustes, récords y el PIN del control
@@ -43,12 +43,20 @@ nada hasta que entrás al ranking y elegís un apodo. Si participás, se guarda 
 y por país); no se usa para publicidad ni se vende. Viaja cifrada (HTTPS). Para dar seguridad y evitar abusos, Firebase también procesa la dirección IP y la versión del juego al conectarse. Google procesa estos datos como
 proveedor, según su <a href="https://firebase.google.com/support/privacy">política de privacidad de Firebase</a>.</p>
 
+<h2>Estadísticas anónimas de juego</h2>
+<p>Desde la versión 3.2, el juego cuenta en el teléfono cosas como cuántas veces se ganó o se perdió cada nivel,
+cuántas veces se usó «revivir» y cuántas veces se abrió el juego, y una vez por sesión envía esos <strong>totales</strong>
+a Google Firebase (Firestore), sumados por día. <strong>No se envía ningún identificador</strong> (ni del usuario, ni del
+teléfono, ni de cuenta), así que esos números no se pueden relacionar con ninguna persona. Solo los usamos para
+saber qué niveles son demasiado difíciles y mejorar el juego. Para dar seguridad, Firebase procesa la dirección IP
+al conectarse, pero no la guardamos junto a los totales.</p>
+
 <h2>Lo que no hace el juego</h2>
 <ul>
   <li>No pide nombre, correo, teléfono, ubicación, contactos, fotos ni cámara.</li>
   <li>No tiene cuentas con contraseña ni inicio de sesión con Google.</li>
   <li>No tiene publicidad.</li>
-  <li>No usa herramientas de analítica ni de seguimiento.</li>
+  <li>No usa herramientas de analítica de terceros, publicidad ni seguimiento entre apps; solo los totales anónimos de arriba.</li>
   <li>No tiene chat ni permite enviar textos a otras personas.</li>
 </ul>
 
@@ -97,13 +105,18 @@ cambiaremos la fecha de arriba.</p>
 <hr>
 
 <h1>Inka Bomber Privacy Policy</h1>
-<p class="fecha">Last updated: October 21, 2026</p>
+<p class="fecha">Last updated: November 3, 2026</p>
 
 <p>Inka Bomber is an Android game published by <strong>WaldosPeru</strong> on Google Play
-(<code>com.waldosapps.inkabomber</code>). <strong>The game does not ask for or sell personal data.</strong> The only thing that leaves the phone is, if you choose to take part, your row in the online ranking.</p>
+(<code>com.waldosapps.inkabomber</code>). <strong>The game does not ask for or sell personal data.</strong> The only things that leave the phone are anonymous gameplay totals (no identifier at all) and, if you choose to take part, your row in the online ranking.</p>
 <ul>
   <li><strong>Progress</strong> (levels, coins, characters, pets, settings and the parental PIN) is stored
   only on your phone. We have no servers and cannot see it.</li>
+  <li><strong>Anonymous gameplay statistics (since 3.2):</strong> the game counts on the phone things like how many times
+  each level was won or lost, how often “revive” was used and how often the game was opened, and once per session sends
+  those <strong>daily totals</strong> to Google Firebase (Firestore) with <strong>no identifier</strong> of any kind, so they cannot be
+  linked to anyone. We only use them to find levels that are too hard. Firebase processes the IP address when connecting,
+  but it is not stored with the totals.</li>
   <li><strong>Online ranking (optional, since 3.1):</strong> nothing is sent until you open the ranking and pick a
   nickname. Then Google Firebase (Firestore) stores one row per board with an anonymous ID created by Firebase
   Authentication, your nickname (an animal + a quality chosen from a list + a random number; no free text), the
@@ -111,7 +124,7 @@ cambiaremos la fecha de arriba.</p>
   used and the date. Other players see this row in the ranking. It is sent over HTTPS, not used for ads and not sold. For security and abuse prevention, Firebase also processes the IP address and app version when connecting.
   Google processes it as a provider under the <a href="https://firebase.google.com/support/privacy">Firebase privacy terms</a>.
   Old weekly boards are kept as history.</li>
-  <li><strong>No ads, no analytics, no tracking, no chat.</strong> The game never asks for your name, email,
+  <li><strong>No ads, no third-party analytics, no tracking, no chat.</strong> The game never asks for your name, email,
   location, contacts, photos or camera.</li>
   <li><strong>In-app purchases</strong> are processed by Google Play under Google's
   <a href="https://policies.google.com/privacy">privacy policy</a>. The game only receives the purchase
